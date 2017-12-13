@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("img/bg.jpeg") no-repeat center;
+  background-size: 100%;
+  transition: all 1.3s;
+}
+
+.loading {
+  background-size: 140%;
+}
+
+.container-app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-submit {
+  float: right;
+}
+
+.checkbox_wrap {
+  display: inline-block;
+  margin: 0 0 1rem 10px;
+}
+
+.signIn-link {
+  text-decoration: underline;
+  position: relative;
+  top: 14px;
+  left: 40px;
+}
+
+.signIn-link:hover {
+  text-decoration: none;
+}
+
+.Form {
+  width: 400px;
+  padding: 3rem;
+  border-radius: 2px;
+  background: rgba(246, 246, 246, 1);
+  box-shadow: 0 2px 2px 0 rgba(248, 248, 248, 0.14), 0 1px 5px 0 rgba(248, 248, 248, 0.12), 0 3px 1px -2px rgba(248, 248, 248, 0.2);
+}
+
+.FromBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
